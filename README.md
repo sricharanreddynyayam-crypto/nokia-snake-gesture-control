@@ -7,6 +7,25 @@
 
 A classic Nokia Snake game controlled by hand gestures via webcam using MediaPipe and OpenCV. Experience the nostalgia of Nokia Snake with modern AI-powered gesture recognition!
 
+## 🎬 Preview & Demo
+
+**[📺 View Full Demo & Screenshots](DEMO.md)**
+
+### Quick Preview
+```
+┌─────────────────┐  ┌─────────────────┐
+│  Game Window    │  │ Gesture Window  │
+│                 │  │                 │
+│  ████           │  │   Direction: →  │
+│  ████  🍎       │  │   BOOST!        │
+│  ████           │  │                 │
+│                 │  │   👋 Hand       │
+│  Score: 50      │  │   Tracking      │
+└─────────────────┘  └─────────────────┘
+```
+
+**Dual Window Interface**: Game + Live Gesture Tracking
+
 ## Features
 
 ### 🎮 Classic Nokia Snake Game
@@ -105,7 +124,8 @@ snake_game/
 ├── gesture_controller.py  # Hand gesture recognition
 ├── setup.py              # Automatic dependency installer
 ├── requirements.txt      # Python package dependencies
-└── README.md            # This file
+├── README.md            # This file
+└── DEMO.md              # Detailed demo & preview
 ```
 
 ## Technical Details
@@ -206,3 +226,5 @@ This project is open source and available under the MIT License.
 ---
 
 **Enjoy playing Nokia Snake with hand gestures! 🐍👋**
+
+**[📺 View Full Demo & Preview](DEMO.md)**
